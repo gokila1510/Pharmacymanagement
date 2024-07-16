@@ -1,0 +1,19 @@
+/* AllMedicines.css */
+
+.all-medicines-container {
+    padding: 20px;
+  }
+  
+  .all-medicines-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .all-medicines-item {
+    margin-bottom: 10px;
+  }
+  
+  .all-medicines-item:last-child {
+    margin-bottom: 0;
+  }
+  

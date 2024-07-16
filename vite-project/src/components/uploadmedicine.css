@@ -1,0 +1,36 @@
+/* uploadmedicine.css */
+
+.upload-medicine-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.upload-medicine-input,
+.upload-medicine-textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.upload-medicine-textarea {
+  resize: vertical;
+}
+
+.upload-medicine-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-medicine-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,43 @@
+.medicine-details-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .medicine-details-container h1 {
+    font-size: 24px;
+    font-weight: bold; /* Make medicine name bold */
+    margin-bottom: 10px;
+  }
+  
+  .medicine-details-container img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .medicine-details-container p {
+    margin-bottom: 5px;
+  }
+  
+  .medicine-details-container strong {
+    font-weight: bold;
+  }
+  
+  .medicine-details-container button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .medicine-details-container button:hover {
+    background-color: #0056b3;
+  }
+  

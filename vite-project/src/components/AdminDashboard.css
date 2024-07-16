@@ -1,0 +1,66 @@
+/* AdminDashboard.css */
+
+/* Style for the navigation bar */
+nav {
+  background-color: #333; /* Background color */
+  padding: 10px; /* Padding */
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 20px /* Remove default padding */
+}
+
+nav ul li {
+  display: inline; /* Display items horizontally */
+  margin-right: 20px; /* Spacing between menu items */
+  
+}
+
+nav ul li a {
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Style for the content area */
+.content {
+  margin-top: 20px; /* Spacing from the navigation bar */
+}
+
+/* Style for the buttons overlay */
+.image-overlay {
+  position: relative; /* Position relative for containing the absolute positioned buttons */
+  width: 100%; /* Full width */
+}
+
+.buttons-overlay {
+  position: absolute; /* Position absolute to overlay buttons */
+  top: 50%; /* Position from top */
+  left: 50%; /* Position from left */
+  transform: translate(-50%, -50%); /* Center horizontally and vertically */
+}
+
+.buttons-overlay button {
+  margin: 5px; /* Spacing between buttons */
+  padding: 10px 20px; /* Padding */
+  background-color: #f7fafd; /* Button background color */
+  color: rgb(12, 12, 12); /* Button text color */
+  border: none; /* Remove border */
+  cursor: pointer; /* Cursor style */
+}
+
+.buttons-overlay button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+.admin-dashboard-wrapper {
+  background-image: url('https://www.pocketnurse.com/media/wysiwyg/Pharmacy_Image_3.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}

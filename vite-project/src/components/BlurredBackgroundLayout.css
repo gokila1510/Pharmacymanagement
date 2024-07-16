@@ -1,0 +1,21 @@
+/* BlurredBackgroundLayout.css */
+
+.blurred-background-layout {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Ensure the layout is behind other content */
+    background-image: url('https://www.pocketnurse.com/media/wysiwyg/Pharmacy_Image_3.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px); /* Adjust the blur amount as needed */
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1; /* Ensure content is above the blurred background */
+  }
+  
